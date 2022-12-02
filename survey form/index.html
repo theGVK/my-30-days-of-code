@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+    <header>
+      <h1 id="title" class="head">Hackslash Feedback Form</h1>
+      <p class="description" id="description">"Hey juniors, this is the event feedback form for our club!"</p>
+    </header>
+    <form id="survey-form">
+        <div class="form-group">
+          <label id="name-label" for="name">Name:</label>
+          <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required="">
+        </div>
+        <div class="form-group">
+          <label id="rollno-label" for="rollno">Roll no:</label>
+          <input type="text" name="rollno" id="rollno" class="form-control" placeholder="Enter your name" required="">
+        </div>
+            <div class="form-group">
+      <label id="number-label" for="number"
+        >Age<span class="clue">(optional)</span></label
+      >
+      <input
+        type="number"
+        name="age"
+        id="number"
+        min="10"
+        max="99"
+        class="form-control"
+        placeholder="Age"
+      />
+    </div>
+
+        <div class="form-group">
+          <label id="email-label" for="email">Email:</label>
+          <input type="email" name="email" id="email" class="form-control" placeholder="Enter your Email" required="">
+        </div>
+        
+        <div class="form-group">
+          <p>Which section do you belong to?</p>
+          <select id="dropdown" name="section" class="form-control" required="">
+            <option disabled="" selected="" value="">select section</option>
+            <option value="DSA">Data Science - A</option>
+            <option value="DSB">Data Science - B</option>
+            <option value="CYS">Cyber Security</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <p>How would you rate the competition today?</p>
+          <label>
+            <input name="user-recommend" value="Great" type="radio" class="input-radio" checked="">Great!</label>
+          <label>
+            <input name="user-recommend" value="good" type="radio" class="input-radio">good</label>
+            <label>
+            <input name="user-recommend" value="sats" type="radio" class="input-radio">Satisfactory</label>
+            <label>
+            <input name="user-recommend" value="better" type="radio" class="input-radio">Could be better</label>
+
+          <label><input name="user-recommend" value="nope" type="radio" class="input-radio">Wasn't expecting this.</label>
+        </div>
+
+        <div class="form-group">
+          <p>What was your favourite part of the Event?</p>
+          <select id="most-like" name="mostLike" class="form-control" required="">
+            <option disabled="" selected="" value="">Select an option</option>
+            <option value="challenges">Presentation</option>
+            <option value="interact">Interaction with seniors/faculty</option>
+            <option value="community">Community</option>
+            <option value="atmos">The atmosphere of the lab</option>
+            <option value="everything">Everything.</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <p>
+            What would you like to see improved?
+            <span class="clue">(Check all that apply)</span>
+          </p>
+
+          <label><input name="prefer" value="front-end-projects" type="checkbox" class="input-checkbox">Front-end Projects</label>
+          <label>
+            <input name="prefer" value="back-end-projects" type="checkbox" class="input-checkbox">Back-end Projects</label>
+          <label><input name="prefer" value="data-visualization" type="checkbox" class="input-checkbox">Data Visualization</label>
+          <label><input name="prefer" value="challenges" type="checkbox" class="input-checkbox">Challenges</label>
+          <label><input name="prefer" value="open-source-community" type="checkbox" class="input-checkbox">Open Source Community</label>
+          <label><input name="prefer" value="gitter-help-rooms" type="checkbox" class="input-checkbox">Gitter help rooms</label>
+          <label><input name="prefer" value="videos" type="checkbox" class="input-checkbox">Videos</label>
+          <label><input name="prefer" value="city-meetups" type="checkbox" class="input-checkbox">City Meetups</label>
+          <label><input name="prefer" value="wiki" type="checkbox" class="input-checkbox">Wiki</label>
+          <label><input name="prefer" value="forum" type="checkbox" class="input-checkbox">Forum</label>
+          <label><input name="prefer" value="additional-courses" type="checkbox" class="input-checkbox">Additional Courses</label>
+        </div>
+
+        <div class="form-group">
+          <p>Any comments or suggestions?</p>
+          <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here..."></textarea>
+        </div>
+
+        <div class="form-group">
+          <button type="submit" id="submit" class="submit-button">
+            Submit
+          </button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
